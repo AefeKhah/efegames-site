@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="title desc">
+  <title id="title">Fish Memory icon</title>
+  <desc id="desc">A polished fish-shaped memory game icon for Efegames.</desc>
+  <defs>
+    <linearGradient id="bg" x1="72" y1="54" x2="445" y2="463" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#061222"/>
+      <stop offset=".52" stop-color="#08365a"/>
+      <stop offset="1" stop-color="#18d8cf"/>
+    </linearGradient>
+    <linearGradient id="fish" x1="110" y1="168" x2="411" y2="336" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#f7fdff"/>
+      <stop offset=".46" stop-color="#91f5ee"/>
+      <stop offset="1" stop-color="#18d8cf"/>
+    </linearGradient>
+    <linearGradient id="fin" x1="213" y1="193" x2="278" y2="286" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#f6c85f"/>
+      <stop offset="1" stop-color="#ff7a59"/>
+    </linearGradient>
+    <filter id="shadow" x="46" y="76" width="420" height="352" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feDropShadow dx="0" dy="24" stdDeviation="22" flood-color="#001121" flood-opacity=".44"/>
+    </filter>
+  </defs>
+  <rect width="512" height="512" rx="108" fill="url(#bg)"/>
+  <path d="M58 145c58-75 165-98 249-56 70 35 101 102 97 171 27 7 54 24 77 53-33 19-67 27-101 24-41 66-121 101-199 86C88 405 25 312 46 219c6-27 11-46 12-74Z" fill="#031424" opacity=".48"/>
+  <g filter="url(#shadow)">
+    <path d="M105 257c46-84 140-121 227-86 26 10 48 27 66 48l64-52v176l-65-51c-18 21-41 37-68 47-86 33-179-4-224-82Z" fill="url(#fish)"/>
+    <path d="M224 204c27 14 45 34 54 60-24 5-49 2-75-11 0-21 7-37 21-49Z" fill="url(#fin)"/>
+    <path d="M220 313c28-13 48-33 59-58-25-6-51-4-77 8-1 21 5 38 18 50Z" fill="#1788ff" opacity=".88"/>
+    <circle cx="337" cy="246" r="15" fill="#061222"/>
+    <circle cx="342" cy="240" r="5" fill="#fff"/>
+    <path d="M151 256c34-32 75-49 124-49" fill="none" stroke="#061222" stroke-linecap="round" stroke-width="14" opacity=".12"/>
+    <path d="M151 256c34 34 75 51 124 51" fill="none" stroke="#061222" stroke-linecap="round" stroke-width="14" opacity=".12"/>
+  </g>
+  <circle cx="113" cy="113" r="10" fill="#f6c85f"/>
+  <circle cx="401" cy="95" r="7" fill="#18d8cf"/>
+  <circle cx="86" cy="386" r="6" fill="#ffffff" opacity=".72"/>
+</svg>
