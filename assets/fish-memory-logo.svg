@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640" role="img" aria-labelledby="title desc">
+  <title id="title">Fish Memory logo</title>
+  <desc id="desc">Efegames Fish Memory product logo with a fish, cards, and learning tokens.</desc>
+  <defs>
+    <linearGradient id="panel" x1="88" y1="72" x2="550" y2="574" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#061222"/>
+      <stop offset=".55" stop-color="#08365a"/>
+      <stop offset="1" stop-color="#031a2f"/>
+    </linearGradient>
+    <linearGradient id="card" x1="158" y1="132" x2="466" y2="466" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#f4fbff"/>
+      <stop offset="1" stop-color="#b9f8f4"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="180" y1="206" x2="470" y2="405" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#18d8cf"/>
+      <stop offset=".52" stop-color="#1788ff"/>
+      <stop offset="1" stop-color="#f6c85f"/>
+    </linearGradient>
+    <filter id="drop" x="94" y="82" width="452" height="470" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feDropShadow dx="0" dy="30" stdDeviation="30" flood-color="#000814" flood-opacity=".42"/>
+    </filter>
+  </defs>
+  <rect width="640" height="640" rx="128" fill="url(#panel)"/>
+  <path d="M79 120c71-66 191-91 299-55 118 40 191 140 184 257-5 96-69 179-166 219-100 42-224 23-300-47-76-69-91-174-56-263 10-27 22-63 39-111Z" fill="#18d8cf" opacity=".1"/>
+  <g filter="url(#drop)">
+    <rect x="155" y="152" width="242" height="332" rx="34" fill="url(#card)" transform="rotate(-8 276 318)"/>
+    <rect x="245" y="126" width="242" height="332" rx="34" fill="#f4fbff" opacity=".95" transform="rotate(9 366 292)"/>
+    <rect x="208" y="187" width="251" height="286" rx="38" fill="#061222"/>
+    <path d="M188 330c40-75 124-109 201-77 22 9 41 24 56 43l57-46v156l-57-45c-15 18-35 32-58 41-77 30-159-4-199-72Z" fill="url(#accent)"/>
+    <path d="M282 282c25 13 41 31 49 54-22 5-45 2-69-9 0-19 6-34 20-45Z" fill="#f6c85f"/>
+    <path d="M282 385c25-12 43-30 51-53-22-5-46-3-70 8 0 19 6 34 19 45Z" fill="#ffffff" opacity=".9"/>
+    <circle cx="395" cy="316" r="13" fill="#061222"/>
+    <circle cx="399" cy="311" r="4" fill="#fff"/>
+  </g>
+  <g fill="none" stroke-linecap="round" stroke-width="14">
+    <path d="M151 536h338" stroke="#18d8cf"/>
+    <path d="M223 570h194" stroke="#f6c85f"/>
+  </g>
+  <text x="320" y="89" fill="#f4fbff" font-family="Inter, Arial, sans-serif" font-size="34" font-weight="800" letter-spacing="0" text-anchor="middle">Fish Memory</text>
+  <circle cx="121" cy="170" r="8" fill="#f6c85f"/>
+  <circle cx="526" cy="176" r="10" fill="#18d8cf"/>
+  <circle cx="522" cy="478" r="7" fill="#ff7a59"/>
+</svg>
